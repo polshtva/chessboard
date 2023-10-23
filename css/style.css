@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vw;
+    background-color: bisque;
+}
+
+.chessbord {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.black {
+    background-color: black;
+    color: white
+}
+
+.white {
+    background-color: white;
+}
+
+.round-black {
+    background-color: brown;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    box-shadow: 1px 2px #cb5a5a;
+}
+
+.round-beige {
+    background-color: beige;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    box-shadow: 1px 2px gray;
+}
